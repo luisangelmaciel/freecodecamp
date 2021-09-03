@@ -1,14 +1,54 @@
-* {
-    margin: 0;
+@font-face {
+    font-family: "Saiyan-Sans";
+    src: url("https://luisangelmaciel.github.io/codepen/fcc-tribute-page/fonts/Saiyan-Sans.ttf");
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
     background: black;
     color: white;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.barcode {
+    font-family: 'Libre Barcode 128 Text', cursive;
+}
+
+.Saiyan-Sans {
+    font-family: 'Saiyan-Sans', cursive;
+    font-size: 3.5em;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+
+/* make image responsive */
+
+figure {
+    align-items: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
+#title {
+    background-color: #000000;
+    margin: 0px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 100px;
+    align-items: center;
+    align-content: center;
 }
 
 .responsive-img {
@@ -536,7 +576,7 @@ a::after {
 .slider .slide.vegeta-1 {
     background-color: #9e2bf7;
     background-blend-mode: luminosity;
-    background-image: url("img/vegeta-1.webp");
+    background-image: url("https://luisangelmaciel.github.io/codepen/fcc-tribute-page/img/vegeta-1.webp");
     background-position: center center;
     background-size: auto 700px;
     background-position: 50% 0%;
@@ -546,7 +586,7 @@ a::after {
 .slider .slide.vegeta-2 {
     background-color: #f5f37a;
     background-blend-mode: luminosity;
-    background-image: url("img/vegeta-2.webp");
+    background-image: url("https://luisangelmaciel.github.io/codepen/fcc-tribute-page/img/vegeta-2.webp");
     background-position: center center;
     background-size: auto 500px;
     background-position: 56% -121%;
@@ -556,7 +596,7 @@ a::after {
 .slider .slide.vegeta-3 {
     background-color: #ff3974;
     background-blend-mode: luminosity;
-    background-image: url("img/vegeta-3.webp");
+    background-image: url("https://luisangelmaciel.github.io/codepen/fcc-tribute-page/img/vegeta-3.webp");
     background-position: center center;
     background-size: auto 700px;
     background-position: 47% -18%;
@@ -566,7 +606,7 @@ a::after {
 .slider .slide.vegeta-4 {
     background-color: #170cf0;
     background-blend-mode: luminosity;
-    background-image: url("img/vegeta-4.webp");
+    background-image: url("https://luisangelmaciel.github.io/codepen/fcc-tribute-page/img/vegeta-4.webp");
     background-position: center center;
     background-size: auto 700px;
     background-position: 63% -6%;
@@ -576,7 +616,7 @@ a::after {
 .slider .slide.vegeta-5 {
     background-color: #ff6f51;
     background-blend-mode: luminosity;
-    background-image: url("img/vegeta-5.webp");
+    background-image: url("https://luisangelmaciel.github.io/codepen/fcc-tribute-page/img/vegeta-5.webp");
     background-position: center center;
     background-size: auto 700px;
     background-position: 37% 0%;
@@ -630,8 +670,8 @@ a::after {
     transition-delay: 0s;
     -webkit-transition-delay: 0s;
     align-items: center;
-    font-weight: 800;
-    font-size: 2.5em;
+    font-weight: 600;
+    font-size: 2em;
 }
 
 .fade-and-grow .linktext-fade-and-grow:before {
@@ -653,7 +693,6 @@ a::after {
     padding-top: 15px;
     margin-left: 25px;
     margin-right: 25px;
-    background: transparent;
     z-index: 2;
     color: #e9dfec;
     text-decoration: none;
