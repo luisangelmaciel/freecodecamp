@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Travel - FCC: Survey Form</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="text-center">Xiiber Travel</h1>
+            <p id="description" class="description text-center">
+                ¡Gracias por participar!
+            </p>
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Nombre</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="¿Cuál es tu nombre?" required />
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="tu.email@xiiber.com" required />
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">Age<span class="clue">(opcional)</span></label>
+                <input type="number" name="age" id="number" min="18" max="99" class="form-control" placeholder="¿Cuántos años tienes?" />
+            </div>
+            <div class="form-group">
+                <p>Has viajado con Xiiber Travel, antes CG Travel?</p>
+                <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>SSelecciona una opción</option>
+        <option value="si">Si</option>
+        <option value="no">No</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+                <p>Has viajado con Xiiber Travel, antes CG Travel?</p>
+                <label>
+        <input
+          name="user-recommend"
+          value="si"
+          type="radio"
+          class="input-radio"
+          checked
+        />Por supuesto que sí</label
+      >
+      <label>
+        <input
+          name="user-recommend"
+          value="no"
+          type="radio"
+          class="input-radio"
+        />Todavía no</label
+      >
+     
+    </div>
+
+    <div class="form-group">
+      <p>
+      En compañia de quíen(es) prefieres viajar?
+      </p>
+      <select id="most-like" name="mostLike" class="form-control" required>
+        <option disabled selected value>Selecciona una opción</option>
+        <option value="solo">Solo</option>
+        <option value="acompanado">De uno o varios amigos</option>
+        <option value="pareja">En pareja</option>        
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>
+      ¿A qué proximo viaje te gustaría ir?
+        <span class="clue">(Puede ser uno o varios)</span>
+      </p>
+
+      <label
+        ><input
+          name="prefer"
+          value="Acapulco"
+          type="checkbox"
+          class="input-checkbox"
+        />Acapulco</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="Puerto-Vallarta"
+          type="checkbox"
+          class="input-checkbox"
+        />Puerto Vallarta</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="zipolite"
+          type="checkbox"
+          class="input-checkbox"
+        />Zipolite</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Tepoztlan"
+          type="checkbox"
+          class="input-checkbox"
+        />Tepoztlán</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Michoacan"
+          type="checkbox"
+          class="input-checkbox"
+        />Michoacan</label
+      >
+     
+    </div>
+
+    <div class="form-group">
+      <p>Algún comentario, queja o sugerencia?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Deja tu comentario"
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+       Enviar
+      </button>
+    </div>
+
+
+    <center>
+      <script src="https://use.fontawesome.com/dca02e5d5b.js"></script>
+
+      <style>
+          .heartbeat {
+              color: #e80d2e;
+              text-shadow: 1px 1px 2px #053041, 0 0 25px rgba(0, 123, 255, 0.25), 0 0 5px #020e1b;
+              animation: heartbeat 36s infinite;
+          }
+          
+          .heartbeat:hover {
+              color: #017db0;
+              text-shadow: 1px 1px 2px #053547, 0 0 25px rgba(0, 123, 255, 0.25), 0 0 5px #021222;
+              animation: heartbeat 36s infinite;
+          }
+          /*Beating heart animation keyframe #083D77, #017db0 */
+          
+          @keyframes heartbeat {
+              0% {
+                  transform: scale(1.0);
+              }
+              5% {
+                  transform: scale(1.3);
+              }
+              10% {
+                  transform: scale(1.1);
+              }
+              20% {
+                  transform: scale(1.5);
+              }
+              30% {
+                  transform: scale(1.0);
+              }
+              100% {
+                  transform: scale(1.0);
+              }
+          }
+          
+          .text-toxel {
+              color: #017db0;
+          }
+          a {
+            color: black;
+            text-decoration: none;
+        }
+        
+        a::after {
+            color: black;
+        }
+        
+      </style>
+
+
+      <footer>
+          <b>Travel Survey Form</b><br>
+          <br>Made with &nbsp; <i class="fa fa-heart heartbeat"></i> &nbsp; by
+          <a href="https://twitter.com/luisangelmaciel" target="_blank"><b  class="text-toxel">@luisangelmaciel</b></a>
+
+      </footer>
+  </center>
+
+
+  </form>
+
+  
+</div>
+
+<script  src="./script.js"></script>
+
+</body>
+</html>
