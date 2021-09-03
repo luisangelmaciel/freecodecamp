@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Saiyan-Sans";
-    src: url("https://luisangelmaciel.github.io/codepen/fcc-tribute-page/fonts/Saiyan-Sans.ttf");
+    src: url("https://luisangelmaciel.github.io/freecodecamp/fcc-tribute-page/fonts/Saiyan-Sans.ttf");
 }
 
 body {
@@ -576,7 +576,7 @@ a::after {
 .slider .slide.vegeta-1 {
     background-color: #9e2bf7;
     background-blend-mode: luminosity;
-    background-image: url("https://luisangelmaciel.github.io/codepen/fcc-tribute-page/img/vegeta-1.webp");
+    background-image: url("https://luisangelmaciel.github.io/freecodecamp/fcc-tribute-page/img/vegeta-1.webp");
     background-position: center center;
     background-size: auto 700px;
     background-position: 50% 0%;
@@ -586,7 +586,7 @@ a::after {
 .slider .slide.vegeta-2 {
     background-color: #f5f37a;
     background-blend-mode: luminosity;
-    background-image: url("https://luisangelmaciel.github.io/codepen/fcc-tribute-page/img/vegeta-2.webp");
+    background-image: url("https://luisangelmaciel.github.io/freecodecamp/fcc-tribute-page/img/vegeta-2.webp");
     background-position: center center;
     background-size: auto 500px;
     background-position: 56% -121%;
@@ -596,7 +596,7 @@ a::after {
 .slider .slide.vegeta-3 {
     background-color: #ff3974;
     background-blend-mode: luminosity;
-    background-image: url("https://luisangelmaciel.github.io/codepen/fcc-tribute-page/img/vegeta-3.webp");
+    background-image: url("https://luisangelmaciel.github.io/freecodecamp/fcc-tribute-page/img/vegeta-3.webp");
     background-position: center center;
     background-size: auto 700px;
     background-position: 47% -18%;
@@ -606,7 +606,7 @@ a::after {
 .slider .slide.vegeta-4 {
     background-color: #170cf0;
     background-blend-mode: luminosity;
-    background-image: url("https://luisangelmaciel.github.io/codepen/fcc-tribute-page/img/vegeta-4.webp");
+    background-image: url("https://luisangelmaciel.github.io/freecodecamp/fcc-tribute-page/img/vegeta-4.webp");
     background-position: center center;
     background-size: auto 700px;
     background-position: 63% -6%;
@@ -616,7 +616,7 @@ a::after {
 .slider .slide.vegeta-5 {
     background-color: #ff6f51;
     background-blend-mode: luminosity;
-    background-image: url("https://luisangelmaciel.github.io/codepen/fcc-tribute-page/img/vegeta-5.webp");
+    background-image: url("https://luisangelmaciel.github.io/freecodecamp/fcc-tribute-page/img/vegeta-5.webp");
     background-position: center center;
     background-size: auto 700px;
     background-position: 37% 0%;
